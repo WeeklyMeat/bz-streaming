@@ -1,0 +1,84 @@
+// Colors
+$c-shade-main: #ffffff;
+$c-shade-secondary: #e0e0e0;
+$c-shade-tertiary: #c8c8c8;
+$c-main: #646cff;
+$c-dark-main: #0c0c0c;
+
+$c-error-main: #F03346;
+
+/*html[data-theme="dark"] {
+    $c-shade-main: #0c0c0c;
+    $c-shade-secondary: #202020;
+    $c-main: #646cff;
+}*/
+
+// General
+$s-infinite: 10000px;
+$s-border-radius: 6px;
+$s-std-width: 900px;
+$s-std-width-break: 720px;
+$s-std-margin: 1rem;
+
+// Navbar.svelte
+$s-nav-height: 2.5rem;
+$s-nav-p-horizontal: 1rem;
+$s-nav-p-vertical: 0.75rem;
+$s-nav-border: 0.0625rem;
+
+$s-nav-menu-width: 256px;
+$s-nav-menu-option-height: 2rem;
+$s-nav-menu-option-p: 1rem;
+$s-nav-menu-option-icon: 2rem;
+$s-nav-menu-option-text: 1.5rem;
+
+// ContentPanel.svelte
+$s-panel-margin: 1rem;
+$s-panel-hover-offset: 0.25rem;
+$s-panel-title-height: 2rem;
+$s-panel-text-height: 1.5rem;
+$s-panel-text-p-horizontal: 1.25rem;
+$s-panel-text-p-vertical: 0.75rem;
+
+// ContentDescription.svelte
+$s-description-p-top: 0.75rem;
+$s-description-p: 1rem;
+$s-description-title: 2rem;
+$s-description-text: 1.25rem;
+$s-description-text-margin: 0.5rem;
+
+// LandingPage.svelte
+$s-landing-page-width: 60%;
+$s-landing-page-width-max: 810px;
+$s-landing-padding: 4rem;
+$s-landing-logo-width: 320px;
+$s-landing-logo-height: 80px;
+$s-landing-slogan-font: 6rem;
+$s-landing-slogan-weight: 600;
+$s-landing-slogan-weight-bold: 900;
+$s-landing-slogan-margin: 1rem;
+$s-landing-form-p: 3rem;
+
+// Form.svelte
+$s-form-title: 1.25rem;
+$s-form-text: 1rem;
+$s-form-item-p-horizontal: 1rem;
+$s-form-item-p-vertical: 0.75rem;
+$s-form-item-margin: 0.5rem;
+$s-form-submit-margin: 2rem;
+
+// Season.svelte
+$s-episode-height: 2rem;
+$s-episode-p-horizontal: 1rem;
+$s-episode-p-vertical: 0.75rem;
+$s-episode-m: 0.5rem;
+$s-episode-number-width: 1.25rem;
+
+// Profile.svelte
+$s-profile-width: 540px;
+$s-profile-p: 2rem;
+$s-profile-image: 10rem;
+$s-profile-data: 1rem;
+$s-profile-desc-m: 2rem;
+$s-profile-input-p: 1rem;
+$s-profile-button-p: 1rem;
